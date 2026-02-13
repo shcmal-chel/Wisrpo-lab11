@@ -133,23 +133,23 @@ button:hover {
   text-decoration: none;
   transition: background-color 0.2s;
 }
-.sidebar-link:hover{
-    background-color: #f2f2f2;
+.sidebar-link:hover {
+  background-color: #f2f2f2;
 }
-.sidebar-link.active{
-    background-color: #e5e5e5;
-    font-weight: 500;
+.sidebar-link.active {
+  background-color: #e5e5e5;
+  font-weight: 500;
 }
-.sidebar hr{
-    border: none;
-    border-top: 1px solid #e5e5e5;
-    margin: 12px 0;
+.sidebar hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 12px 0;
 }
 
 /* Main */
-.main{
-    flex: 1;
-    padding: 24px;
+.main {
+  flex: 1;
+  padding: 24px;
 }
 
 /* Chips */
@@ -162,7 +162,7 @@ button:hover {
   margin-bottom: 24px;
 }
 
-.chip{
+.chip {
   padding: 8px 16px;
   background-color: #f2f2f2;
   border: none;
@@ -176,16 +176,16 @@ button:hover {
   min-width: 60px;
   text-align: center;
 }
-.chip:hover{
+.chip:hover {
   background-color: #e5e5e5;
 }
-.chip.active{
+.chip.active {
   background-color: #030303;
   color: white;
 }
 
 /* Video Card */
-.video-card{
+.video-card {
   cursor: pointer;
 }
 .thumbnail {
@@ -205,25 +205,25 @@ button:hover {
   position: absolute;
   bottom: 8px;
   right: 8px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   padding: 3px 6px;
   border-radius: 4px;
   font-size: 12px;
   font-weight: 500;
 }
-.video-info{
+.video-info {
   display: flex;
   gap: 12px;
   margin-top: 12px;
 }
-.channel-avatar{
+.channel-avatar {
   width: 36px;
   height: 36px;
   border-radius: 50%;
   flex-shrink: 0;
 }
-.video-details{
+.video-details {
   flex: 1;
 }
 .video-title {
@@ -237,12 +237,18 @@ button:hover {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.channel-name{
+.channel-name {
   font-size: 13px;
   color: #606060;
   margin-bottom: 2px;
 }
-.video-meta{
+.video-meta {
   font-size: 13px;
   color: #606060;
+}
+/* Video Grid */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
 }
